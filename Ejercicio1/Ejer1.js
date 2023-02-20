@@ -1,6 +1,6 @@
 function calcularMayor(){
-    var num1 = document.getElementById("val1").value;
-    var num2 = document.getElementById("val2").value;
+    let num1 = document.getElementById("val1").value;
+    let num2 = document.getElementById("val2").value;
     if(num1 == ""){
         alert("Ingrese el primer numero");
         document.getElementById("val1").focus();

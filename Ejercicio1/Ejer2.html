@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <div id="div1">
+        <h1>Ejercicio 02</h1>
+
+        <h2>¿Por qué el código esta en body?</h2>
+
+        <p id="salida"></p>
+        
+        <script>
+            let suerte = (Math.random() * 6);
+            let dado = parseInt(suerte)+1;
+            let obj1 = document.getElementById("salida");
+            if(dado>3){
+                obj1.innerHTML ='Has ganado, ha salido el numero: ' + dado; 
+            }else{
+                obj1.innerHTML ='Lo siento, ha salido el numero: ' + dado;
+            }
+        </script>  
+
+        <button id="button1" type="button" onclick="respuesta()">Respuesta</button>
+    
+        <script>
+            function respuesta(){
+                let resp = document.createElement("p");
+                resp.innerHTML = "El codigo va en el body poque si estuviera escrito en el Head no se mostraria en pantalla.";
+                let padre = document.getElementById("div1");
+                padre.appendChild(resp);
+        }
+        </script>
+    </div>
+
+</body>
+</html>
