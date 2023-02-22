@@ -2,6 +2,7 @@
 #container
 {
     width: 70%;
+   
     padding: 0;
     text-align: center;
     border: 1px solid #DDD;
@@ -59,8 +60,11 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #footer
 {
-    background: #f18b8b;
-    color: white;
+    border-radius: 5px;
+    border-style:ridge solid;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: grey;
+    color: wheat;
     text-align: center;
     padding: 0.5em;
 }
