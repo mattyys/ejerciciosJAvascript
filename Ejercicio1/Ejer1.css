@@ -40,10 +40,11 @@ body
 }
 #footer
 {
-    border-radius: 15px;
-
-    background: #777;
-    color: white;
+    border-radius: 5px;
+    border-style:ridge solid;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: grey;
+    color: wheat;
     text-align: center;
     padding: 0.5em;
 }
