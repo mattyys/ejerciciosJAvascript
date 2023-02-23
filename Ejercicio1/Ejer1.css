@@ -1,7 +1,7 @@
 
 #container
 {
-    width: 70%;
+    width: 45%;
    
     padding: 0;
     text-align: center;
@@ -38,13 +38,32 @@ body
     margin: 0;
     padding: 0;
 }
+
+#formulario
+{
+    background: #e7f1df93;
+    
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0.5px;
+    padding-bottom: 0.5%;
+    padding-right: 0.5%;
+}
+#calcular
+{
+border-radius: 5px;
+background-color: hsl(71, 73%, 83%);
+padding-bottom: 0;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 #footer
 {
-    border-radius: 5px;
-    border-style:ridge solid;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     background: grey;
     color: wheat;
     text-align: center;
     padding: 0.5em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
