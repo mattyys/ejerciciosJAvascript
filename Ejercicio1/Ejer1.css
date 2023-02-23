@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
 
 #container
 {
@@ -52,10 +58,20 @@ body
 }
 #calcular
 {
-border-radius: 5px;
+/*border-radius: 5px;
 background-color: hsl(71, 73%, 83%);
 padding-bottom: 0;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+
+background-color: aqua;
+padding: 5px 10px;
+color: black;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+border-left: 5px solid gold;
+text-transform: uppercase;
+text-decoration: none;
+cursor: pointer;
 }
 #footer
 {
