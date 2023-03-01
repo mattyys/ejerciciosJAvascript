@@ -11,17 +11,17 @@
     <p>Crear una funcion que calcule cual es el numero mayor de dos numero enteros</p>
     
     <script>
-
-        let entero1 = prompt("Ingrese un numero entero");
-        let entero2 = prompt("Ingrese un numero entero");
+        let entero1 = parseInt(prompt("Ingrese un numero entero 1:"));
+        let entero2 = parseInt(prompt("Ingrese un numero entero 2:"));
 
         function numMayor(){
             if(entero1 > entero2){
-                alert("El primer numero es el mayor - "+entero1); 
+                 return "El primer numero es el mayor - "+ entero1; 
             }else{
-                alert("El segundo es el mayor - " + entero2);
-            }
+                return "El segundo es el mayor - " + entero2;
+            }  
         }
+        alert(numMayor());
     </script>
       
 </body>
