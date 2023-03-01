@@ -10,7 +10,7 @@ function verMayor18(getEdad){
 function verificarEdad(){
     let getEdad = parseInt(document.getElementById("edad").value);
 
-    if(getEdad >= 1 && getEdad < 120){
+    if(getEdad >= 1 && getEdad <= 120){
         verMayor18(getEdad);
     }else{
         alert("No tiene permiso de acceso 🚫");
