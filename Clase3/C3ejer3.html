@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercico 03</title>
+</head>
+<body>
+    <h1>Ejercicio 3</h1>
+    <pre>
+        Hacer un script que pregunte nombre, edad (mediante la palabra reservada de JavaScript
+        “prompt”). y como resultado debe mostrar los días que ha vivido esa persona.
+        Ejem:
+
+        var nombre = prompt("Introduce tu nombre");
+    </pre>
+    <script>
+        
+        let nombre = prompt("Introduce tu nombre:");
+        let fecha1 = new Date(prompt("Introduce fecha nacimiento -- mm/dd/yyyy"));
+        let fecha2 = Date.now();    
+        let dif  = fecha2 - fecha1; 
+        let cantDias = dif / 1000 / 60 / 60 / 24;
+        alert(nombre + " vivió " + cantDias + " días");   
+            
+
+    </script>
+    
+</body>
+</html>
