@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Ejercicio 2</h1>
+    <p>
+        Crear una funci&oacute;n que reciba un n&uacute;mero real y devuelva un n&uacute;mero entero con <br>
+        el valor -1 si el n&uacute;mero es negativo, 1 si el valor es positivo y si es cero que devuelva 0
+    </p>
+    <script>
+        let numero = prompt("Ingrese un numero");
+        let respuesta;
+        if(numero < 0){
+            respuesta = -1;
+        }else if(numero > 0){
+            respuesta = 1;
+        }else{
+            respuesta = 0;
+        }
+        alert("Respuesta: " + respuesta + "  /------/  Numero ingresado  " + numero);
+    </script>
+    
+</body>
+</html>
